@@ -1,0 +1,108 @@
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/outfit-v11-latin-regular.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* outfit-600 - latin */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/outfit-v11-latin-600.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #D6E2F0;
+	line-height: normal;
+	font-family: 'Outfit';
+	font-size: 15px;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main {
+	margin-bottom: 28px;
+}
+
+.footer {
+	color: #1F3251;
+	text-align: center;
+	font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	margin: 0;
+	padding: 0;
+}
+
+.attribution {
+	font-size: 11px;
+}
+
+.attribution a {
+	color: #1F3251;
+
+}
+
+.quar-card {
+	padding: 18px 17px 45px 18px;
+	max-width: 315px;
+	height: 484px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	text-align: center;
+}
+
+.quar-card__img {
+	margin-bottom: 9px;
+	border-radius: 15px;
+	width: 280px;
+	height: 280px;
+}
+
+.quar-card__title {
+	margin-bottom: 19px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #1F3251;
+
+}
+
+.quar-card__info {
+	max-width: 243px;
+	margin: 0 auto;
+	color: #7B879D;
+	font-weight: 400;
+}
