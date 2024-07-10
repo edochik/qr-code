@@ -8,7 +8,7 @@ import { ScanHistory } from "./components/ScanHistory.jsx";
 import { GenerateHistory } from "./components/GenerateHistory.jsx";
 export const Layout = () => {
 	return (
-		<>
+		<><div>Text</div>
 			<Navigation />
 			<Routes>
 				<Route path="/generate" element={<QrCodeGenerate />} />
